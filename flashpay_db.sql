@@ -81,7 +81,7 @@ CREATE TABLE `currencyrate` (
 
 CREATE TABLE `deposit` (
   `id_deposit` int(15) NOT NULL,
-  `transection_id` int(15) NOT NULL
+  `transaction_id` int(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -141,7 +141,7 @@ CREATE TABLE `transaction` (
 
 CREATE TABLE `transfer` (
   `id_transfer` int(11) NOT NULL,
-  `transection_id` int(11) NOT NULL
+  `transaction_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -152,7 +152,7 @@ CREATE TABLE `transfer` (
 
 CREATE TABLE `withdrawal` (
   `id_withdrawal` int(15) NOT NULL,
-  `transection_id` int(15) NOT NULL
+  `transaction_id` int(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
